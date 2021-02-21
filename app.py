@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 response = ''
 
-@app.route('/name' , method = ['GET' , 'POST'])
+@app.route('/name' , methods = ['GET' , 'POST'])
 def nameroute():
     global response
 
